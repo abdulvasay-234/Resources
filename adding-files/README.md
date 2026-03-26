@@ -2,18 +2,18 @@
 
 <p align="center">
   <b>Building a strong open-source and project culture at LIET</b><br/>
-  Contribute • Collaborate • Grow 🚀
+  Contribute • Collaborate • Grow
 </p>
 
 ---
 
-## 📌 About This Repository
+## About This Repository
 This repository is part of the **Lords Institute GitHub Organization**, created to:
 
-- Showcase student projects 📂  
-- Encourage open-source contributions 🤝  
-- Build real-world development experience 💻  
-- Strengthen the technical ecosystem at LIET 🚀  
+- Showcase student projects
+- Encourage open-source contributions
+- Build real-world development experience
+- Strengthen the technical ecosystem at LIET
 
 ---
 
@@ -25,7 +25,7 @@ This repository is part of the **Lords Institute GitHub Organization**, created 
 
 ---
 
-## 🏫 Department Repositories
+## Department Repositories
 Choose your department below:
 
 - 🔹 [CSM](https://github.com/lordsinstitute/csm-department)  
@@ -36,10 +36,10 @@ Choose your department below:
 
 ---
 
-## 🛠️ Contribution Workflow
+## Contribution Workflow
 
 Follow the standard GitHub contribution flow:
-Fork → Clone (optional) → Make Changes → Commit → Pull Request
+`Fork → Clone (optional) → Make Changes → Commit → Pull Request`
 
 
 ---
@@ -47,7 +47,7 @@ Fork → Clone (optional) → Make Changes → Commit → Pull Request
 ## 🚀 Step-by-Step Contribution Guide
 
 ### 1️⃣ Open Repository
-- Visit your department repository  
+- Visit your [department repository](#department-repositories)
 - Ensure you're logged into GitHub  
 
 <img width="853" src="https://github.com/user-attachments/assets/7fe7d442-052c-45fb-bf87-cc811c3be1fb" />
