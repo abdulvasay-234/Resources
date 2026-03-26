@@ -5,6 +5,10 @@
   Contribute • Collaborate • Grow
 </p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d17ba85e-6e8c-4c43-993c-de75b36a9cbe" width="950" />
+</p>
+
 ---
 
 ## About This Repository
