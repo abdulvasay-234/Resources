@@ -96,7 +96,34 @@ Check the following:
 
 ---
 
-## 🏷️ Step 6: Understand Labels
+## 📁 Step 6: View Project Files (Files Changed)
+
+- Inside the Pull Request, click on the **“Files changed”** tab  
+- This shows all the files submitted by the student  
+
+<img width="771" height="368" alt="image" src="https://github.com/user-attachments/assets/8ea39b9f-7131-4e61-80ae-e7543f1e75cf" />
+
+---
+
+### 🔍 How to Navigate Files
+
+- Files are shown in a list on the page  
+- You can:
+  - Click on file names to view content  
+  - Scroll to explore all uploaded files  
+  - Expand folders (if structured)  
+
+<img width="794" height="412" alt="image" src="https://github.com/user-attachments/assets/8e4da15b-2459-4407-b823-011d46bc7ad7" />
+
+
+---
+
+### 💡 Tip
+
+- Focus on the **main project folder**
+- Ignore minor system files (if any)
+
+## 🏷️ Step 7: Understand Labels
 
 Each PR will have:
 
@@ -107,7 +134,7 @@ Each PR will have:
 
 ---
 
-## 📢 Step 7: Mark Review Status (MANDATORY)
+## 📢 Step 8: Mark Review Status (MANDATORY)
 
 After reviewing the project, choose ONE of the following:
 
