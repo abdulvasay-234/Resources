@@ -17,19 +17,19 @@ Welcome 👋
 This guide will help faculty members **view, review, and approve student project submissions** on the LIET GitHub platform.
 
 ---
+
 ## 📌 What is This System?
 
 - Students upload their projects to GitHub  
 - Each project is submitted via a **Pull Request (PR)**  
 - Faculty review and approve submissions  
 
-
 ---
 
 ## ⚠️ Important Guidelines
 - The screenshots used are for **demonstration purposes only**
 - Each department has its **own repository**
-- Make sure you review projects **only from your department repository**
+- Review projects **only from your department repository**
 
 ---
 
@@ -37,8 +37,11 @@ This guide will help faculty members **view, review, and approve student project
 - Go to: https://github.com/lordsinstitute  
 - Make sure you are logged into your GitHub account  
 
-## Department Repositories
-Choose your department below:
+---
+
+## 🏫 Step 2: Open Your Department Repository
+
+Choose your department:
 
 - 🔹 [CSM](https://github.com/lordsinstitute/csm-department)  
 - 🔹 [CSE](https://github.com/lordsinstitute/cse-department)  
@@ -51,23 +54,24 @@ Choose your department below:
 ## 🔍 Step 3: View Submitted Projects
 
 - Click on the **“Pull Requests”** tab  
-- You will see all submitted student projects
-<img width="695" height="448" alt="image" src="https://github.com/user-attachments/assets/f131eed9-1427-4e11-bc12-3e2e0c3ff943" />
+- You will see all submitted student projects  
+
+<img width="695" src="https://github.com/user-attachments/assets/f131eed9-1427-4e11-bc12-3e2e0c3ff943" />
 
 ---
 
 ## 📂 Step 4: Search and Open a Student Submission
+
 - Use the **search bar** in the Pull Requests page  
 - Type the **project name or roll number**  
-- Find the relevant Pull Request from the results  
-- Click on the Pull Request to open it
+- Click on the relevant Pull Request  
 
-<img width="892" height="470" alt="image" src="https://github.com/user-attachments/assets/4692a66c-4d3d-44b2-9a32-54859d8f6f3e" />
+<img width="892" src="https://github.com/user-attachments/assets/4692a66c-4d3d-44b2-9a32-54859d8f6f3e" />
 
 👉 You will see:
-  - Project files  
-  - Student details  
-  - Changes made  
+- Project files  
+- Student details  
+- Changes made  
 
 ---
 
@@ -78,98 +82,115 @@ Check the following:
 ### ✅ Basic Details
 - Project name  
 - Roll number  
-- Team members
+- Team members  
 
-<img width="817" height="457" alt="image" src="https://github.com/user-attachments/assets/8a152d8e-022c-44ac-b5a5-8026bffb03df" />
+### ✅ Files
+- All files are uploaded  
+- No missing or broken files  
 
+### ✅ Structure
+- Proper folder organization  
+- Clean structure  
+
+<img width="817" src="https://github.com/user-attachments/assets/8a152d8e-022c-44ac-b5a5-8026bffb03df" />
 
 ---
-## 📢 Step 11: Mark Project as Reviewed
-- Once you have completed reviewing the project  
-- Add the following comment **exactly as given below**  
 
-### ✍️ Comment Format (Do NOT change anything except your name):
+## 🏷️ Step 6: Understand Labels
+
+Each PR will have:
+
+- **project-submitted** → New submission  
+- **project-under-review** → Under review  
+- **needs correction** → Changes required  
+- **verified** → Verified by faculty  
+
+---
+
+## 📢 Step 7: Mark Review Status (MANDATORY)
+
+After reviewing the project, choose ONE of the following:
+
+---
+
+### ✅ Option 1: Project Verified (No Issues)
+
+If the project is correct and complete, add this comment:
 
 ```
 PROJECT REVIEWED BY [Faculty Name]
 
 ```
-⚠️ Important:
-- Do not change the wording or format  
-- Only replace **[Faculty Name]** with your name  
-- **This is required for the system to automatically verify the project**
 
-<img width="775" height="299" alt="image" src="https://github.com/user-attachments/assets/2ee1fb5d-36e4-4877-8d78-fd8063b1b2af" />
+<img width="775" src="https://github.com/user-attachments/assets/2ee1fb5d-36e4-4877-8d78-fd8063b1b2af" />
 
 
-## 🏷️ Step 6: Understand Labels
-
-Each PR will have labels:
-
-- **project-submitted** → New submission  
-- **project-under-review** → Currently being reviewed  
-- **changes-requested** → Changes required
-- **verified** → Verified by the faculty
+✔ Use this only when:
+- Project is complete  
+- Files are correct  
+- No major issues  
 
 ---
 
-## ✍️ Step 7: Give Feedback (Optional)
+### ⚠️ Option 2: Requires Maintainer Attention
 
-- Click **“Add a comment”**
-- Suggest improvements if needed  
+If you need guidance, clarification, or want maintainer review, add:
 
----
+```
+Requires maintainer review
 
-## ❌ Step 8: If Changes Are Needed
+```
 
-- Ask the student to update their PR  
-- Label: `needs correction` (if applicable)  
 
----
+⚠️ Use this ONLY when:
+- You are unsure about approval  
+- You need technical validation  
+- You want maintainer decision before approval  
 
-## ✅ Step 9: Approve the Project
-
-- Click **“Review changes”**
-- Select **“Approve”**
-- Submit review  
+❌ Do NOT use this for minor fixes or student mistakes  
 
 ---
 
-## 🚀 Step 10: Merge the Project
-
-- After approval, click **“Merge Pull Request”**
-- Confirm merge  
-
-👉 Project is now successfully added 🎉
+### 🚫 For Minor Issues (Student Fix Needed)
+- Do NOT tag maintainer for small corrections  
 
 ---
 
-## ⚠️ Important Guidelines
+### ⚠️ Important Rules
 
-- Only approve valid and complete projects  
-- Do not merge incorrect submissions  
-- Ensure project belongs to correct department  
+- Do not change wording of comments  
+- Replace only **[Faculty Name]**  
+- This ensures proper tracking and automation  
+
+<img width="659" height="239" alt="image" src="https://github.com/user-attachments/assets/e058af8e-0fc0-46bd-bca5-ba27bf4edc63" />
+
 
 ---
+## 🚀 Final Step: Maintainer Merge
 
-## 💡 Benefits for Faculty
+- Once the faculty marks the project as reviewed  
+- The maintainer will verify and merge the project  
 
-- Easy access to all student projects  
-- Organized and centralized system  
-- Transparent review process  
-- Helps track student performance  
+👉 Faculty are not required to perform the merge
+
+---
+## 💡 Benefits
+
+- Centralized project tracking  
+- Easy review process  
+- Transparent system  
+- Builds student portfolios  
 
 ---
 
 ## 💬 Need Help?
 
 Contact:
-- Repository maintainers  
-- Technical team  
+liet_gh@lords.ac.in
 
 ---
 
 <p align="center">
   <b>LIET GitHub System</b><br/>
-  Simplifying Project Management 🚀
+  Simplifying Project Review 🚀
 </p>
